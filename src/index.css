@@ -1,0 +1,85 @@
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+   /* QuizApp.css */
+   .quiz-app {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .start-section {
+    margin-top: 50px;
+  }
+  
+  .start-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-button:hover {
+    background-color: #45a049;
+  }
+  
+  .score-section {
+    font-size: 20px;
+    color: green;
+    margin-top: 20px;
+  }
+  
+  .question-section {
+    margin: 20px auto;
+    max-width: 500px;
+  }
+  
+  .question-count {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .question-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .answer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .answer-button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .answer-button:hover {
+    background-color: #ddd;
+  }
+  
+  .answer-button:active {
+    background-color: #ccc;
+  }
+  
